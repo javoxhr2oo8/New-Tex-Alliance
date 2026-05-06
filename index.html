@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <title>NTA - Пожарная Безопасность</title>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="sticky-nav" id="stickyNav">
+    <div class="sticky-nav-inner">
+      <div class="brand-group">
+        <img src="./LOGO NTA.png" alt="NTA Logo" class="sticky-logo-img">
+        <span class="sticky-logo-text">NTA</span>
+      </div>
+
+      <!-- DROPDOWN В ШАПКЕ -->
+      <div class="custom-dropdown" id="stickyLangDropdown">
+        <div class="dropdown-selected">
+          <img src="https://flagcdn.com/w40/ru.png" alt="flag" class="current-flag">
+          <span class="current-lang-text">RU</span>
+          <svg class="dropdown-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </div>
+        <div class="dropdown-options">
+          <div class="dropdown-option" data-lang="ru">
+            <img src="https://flagcdn.com/w40/ru.png" alt="ru"> RU
+          </div>
+          <div class="dropdown-option" data-lang="uz">
+            <img src="https://flagcdn.com/w40/uz.png" alt="uz"> UZ
+          </div>
+          <div class="dropdown-option" data-lang="zh">
+            <img src="https://flagcdn.com/w40/cn.png" alt="zh"> ZH
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header">
+
+    <div class="top-left-brand glass-panel">
+      <img src="LOGO NTA.png" alt="NTA Logo" class="corner-logo-img">
+      <h1 data-i18n="mainTitle">New Tex Alliance</h1>
+    </div>
+
+    <div class="custom-dropdown lang-switch glass-panel" id="headerLangDropdown">
+      <div class="dropdown-selected">
+        <img src="https://flagcdn.com/w40/ru.png" alt="flag" class="current-flag">
+        <span class="current-lang-text">RU</span>
+        <svg class="dropdown-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </div>
+      <div class="dropdown-options">
+        <div class="dropdown-option" data-lang="ru">
+          <img src="https://flagcdn.com/w40/ru.png" alt="ru"> RU
+        </div>
+        <div class="dropdown-option" data-lang="uz">
+          <img src="https://flagcdn.com/w40/uz.png" alt="uz"> UZ
+        </div>
+        <div class="dropdown-option" data-lang="zh">
+          <img src="https://flagcdn.com/w40/cn.png" alt="zh"> ZH
+        </div>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="slide active"
+        style="background-image: url('https://cs11.pikabu.ru/post_img/big/2018/08/11/1/1533940137194892564.jpg');">
+      </div>
+      <div class="slide" style="background-image: url('https://mycalling.ru/wp-content/uploads/2015/06/pojarny.jpg');">
+      </div>
+      <div class="slide"
+        style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1e/BalNPP_mane2.jpg');"></div>
+    </div>
+
+    <div class="header-content glass-panel">
+      <h2 class="hero-text" data-i18n="heroText">
+        Огнетушители, рукава
+        <span>и комплектующие</span>
+      </h2>
+      <p class="subtitle" data-i18n="subtitle">Надежная защита для дома и бизнеса</p>
+      <div class="hero-actions-wrapper">
+        <a href="tel:+998901234567" class="btn" data-i18n="callBtn">Позвонить</a>
+        <a href="#main" class="btn" data-i18n="catalog">Каталог</a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" id="scrollIndicator">
+      <span class="scroll-text" data-i18n="scrollHint">Смотреть ниже</span>
+      <div class="scroll-arrow">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M12 5v14M5 12l7 7 7-7" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+
+    <h2 class="section-title" data-i18n="catExtinguishers">Огнетушители</h2>
+    <div class="products-grid">
+
+      <div class="product-card fade-in">
+        <img src="./images/ОП-3.jpeg" alt="ОП-3">
+        <div class="product-info">
+          <h3 data-i18n="op3Title">ОП-3</h3>
+          <p class="specs" data-i18n="specOp">Порошковый, с кронштейном</p>
+          <p class="desc" data-i18n="descOp">Универсальный огнетушитель. Подходит для тушения твердых веществ, горючих
+            жидкостей и электропроводки. Самый популярный выбор для дома и авто.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОП-4.jpg" alt="ОП-4">
+        <div class="product-info">
+          <h3 data-i18n="op4Title">ОП-4</h3>
+          <p class="specs" data-i18n="specOp">Порошковый, с кронштейном</p>
+          <p class="desc" data-i18n="descOp">Универсальный огнетушитель. Подходит для тушения твердых веществ, горючих
+            жидкостей и электропроводки. Самый популярный выбор для дома и авто.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОП-5.jpg" alt="ОП-5">
+        <div class="product-info">
+          <h3 data-i18n="op5Title">ОП-5</h3>
+          <p class="specs" data-i18n="specOp">Порошковый, с кронштейном</p>
+          <p class="desc" data-i18n="descOp">Универсальный огнетушитель. Подходит для тушения твердых веществ, горючих
+            жидкостей и электропроводки. Самый популярный выбор для дома и авто.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОП-8.jpg" alt="ОП-8">
+        <div class="product-info">
+          <h3 data-i18n="op8Title">ОП-8</h3>
+          <p class="specs" data-i18n="specOp">Порошковый, с кронштейном</p>
+          <p class="desc" data-i18n="descOp">Универсальный огнетушитель. Подходит для тушения твердых веществ, горючих
+            жидкостей и электропроводки. Самый популярный выбор для дома и авто.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОП-10.jpg" alt="ОП-10">
+        <div class="product-info">
+          <h3 data-i18n="op10Title">ОП-10</h3>
+          <p class="specs" data-i18n="specOp">Порошковый, с кронштейном</p>
+          <p class="desc" data-i18n="descOp">Универсальный огнетушитель. Подходит для тушения твердых веществ, горючих
+            жидкостей и электропроводки. Самый популярный выбор для дома и авто.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОП-25.jpg" alt="ОП-25 и ОП-50">
+        <div class="product-info">
+          <h3 data-i18n="op25Title">ОП-25 и ОП-50</h3>
+          <p class="specs" data-i18n="specOpLarge">Порошковый</p>
+          <p class="desc" data-i18n="descOp">Универсальный огнетушитель. Подходит для тушения твердых веществ, горючих
+            жидкостей и электропроводки. Самый популярный выбор для дома и авто.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОУ-2.jpg" alt="ОУ-2">
+        <div class="product-info">
+          <h3 data-i18n="ou2Title">ОУ-2</h3>
+          <p class="specs" data-i18n="specOu">Углекислотный</p>
+          <p class="desc" data-i18n="descOu">Идеален для серверных, офисов с компьютерами и щитовых. Тушит газом, не
+            оставляя грязи и порошка на дорогом оборудовании.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОУ-3.jpg" alt="ОУ-3">
+        <div class="product-info">
+          <h3 data-i18n="ou3Title">ОУ-3</h3>
+          <p class="specs" data-i18n="specOu">Углекислотный</p>
+          <p class="desc" data-i18n="descOu">Идеален для серверных, офисов с компьютерами и щитовых. Тушит газом, не
+            оставляя грязи и порошка на дорогом оборудовании.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОУ-5.jpg" alt="ОУ-5">
+        <div class="product-info">
+          <h3 data-i18n="ou5Title">ОУ-5</h3>
+          <p class="specs" data-i18n="specOu">Углекислотный</p>
+          <p class="desc" data-i18n="descOu">Идеален для серверных, офисов с компьютерами и щитовых. Тушит газом, не
+            оставляя грязи и порошка на дорогом оборудовании.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/ОУ-10.jpg" alt="ОУ-10">
+        <div class="product-info">
+          <h3 data-i18n="ou10Title">ОУ-10</h3>
+          <p class="specs" data-i18n="specOu">Углекислотный</p>
+          <p class="desc" data-i18n="descOu">Идеален для серверных, офисов с компьютерами и щитовых. Тушит газом, не
+            оставляя грязи и порошка на дорогом оборудовании.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <h2 class="section-title" data-i18n="catHoses">Пожарные рукава</h2>
+    <div class="products-grid">
+
+      <div class="product-card fade-in">
+        <img src="./images/Пожарный-рукав-1.jpg" alt="Рукав 50 1.0">
+        <div class="product-info">
+          <h3 data-i18n="hoseTitle">Пожарный рукав (шланг)</h3>
+          <p class="specs" data-i18n="specHose50_10">D: 50 | 1.0 бар | 20м | ГР-50, РС-50 (с навязкой)</p>
+          <p class="desc" data-i18n="descHose">Гибкий трубопровод для подачи воды под высоким давлением от крана к месту
+            пожара. Обязателен для пожарных шкафов в зданиях.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/Пожарный рукав-2.jpg" alt="Рукав 50 1.6">
+        <div class="product-info">
+          <h3 data-i18n="hoseTitle">Пожарный рукав (шланг)</h3>
+          <p class="specs" data-i18n="specHose50_16">D: 50 | 1.6 бар | 20м | ГР-50, РС-50 (с навязкой)</p>
+          <p class="desc" data-i18n="descHose">Гибкий трубопровод для подачи воды под высоким давлением от крана к месту
+            пожара. Обязателен для пожарных шкафов в зданиях.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/Пожарный рукав-3.jpg" alt="Рукав 65 1.0">
+        <div class="product-info">
+          <h3 data-i18n="hoseTitle">Пожарный рукав (шланг)</h3>
+          <p class="specs" data-i18n="specHose65_10">D: 65 | 1.0 бар | 20м | ГР-65, РС-65 (с навязкой)</p>
+          <p class="desc" data-i18n="descHose">Гибкий трубопровод для подачи воды под высоким давлением от крана к месту
+            пожара. Обязателен для пожарных шкафов в зданиях.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/Пожарный рукав-4.jpg" alt="Рукав 65 1.6">
+        <div class="product-info">
+          <h3 data-i18n="hoseTitle">Пожарный рукав (шланг)</h3>
+          <p class="specs" data-i18n="specHose65_16">D: 65 | 1.6 бар | 20м | ГР-65, РС-65 (с навязкой)</p>
+          <p class="desc" data-i18n="descHose">Гибкий трубопровод для подачи воды под высоким давлением от крана к месту
+            пожара. Обязателен для пожарных шкафов в зданиях.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/Пожарный рукав-5.jpg" alt="Рукав 80">
+        <div class="product-info">
+          <h3 data-i18n="hoseTitle">Пожарный рукав (шланг)</h3>
+          <p class="specs" data-i18n="specHose80_16">D: 80 | 1.6 бар | 20м | ГР-80 (БЕЗ НАВЯЗКИ)</p>
+          <p class="desc" data-i18n="descHose">Гибкий трубопровод для подачи воды под высоким давлением от крана к месту
+            пожара. Обязателен для пожарных шкафов в зданиях.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <h2 class="section-title" data-i18n="catFittings">Пожарные краны и фитинги</h2>
+    <div class="products-grid">
+
+      <div class="product-card fade-in">
+        <img src="./images/Пожарный кран-1.jpg" alt="Кран чугун">
+        <div class="product-info">
+          <h3 data-i18n="valveIronTitle">Пожарный кран (чугун)</h3>
+          <p class="specs" data-i18n="specValve">Модели ДУ-50 и ДУ-65</p>
+          <p class="desc" data-i18n="descValveIron">Надежный чугунный вентиль для внутреннего пожарного водопровода.
+            Открывает подачу воды в рукав. Отличается высокой прочностью.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/Пожарный кран-2.jpg" alt="Кран латунь">
+        <div class="product-info">
+          <h3 data-i18n="valveBrassTitle">Пожарный кран (латунь)</h3>
+          <p class="specs" data-i18n="specValve">Модели ДУ-50 и ДУ-65</p>
+          <p class="desc" data-i18n="descValveBrass">Вентиль премиум-класса. Не подвержен коррозии, легко открывается
+            даже после долгих лет простоя. Идеально для влажных сред.</p>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="./images/Фитинги пожарные.jpg" alt="Фитинги">
+        <div class="product-info">
+          <h3 data-i18n="fittingsTitle">Фитинги пожарные</h3>
+          <p class="specs" data-i18n="specFitting">Из алюминия</p>
+          <p class="desc" data-i18n="descFitting">Специальные соединительные головки. Позволяют за секунды герметично
+            сцепить пожарные рукава между собой или подключить их к крану.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <section class="faq-section">
+    <div class="faq-inner">
+      <h2 data-i18n="faqTitle">Часто задаваемые вопросы</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq1q">Какой срок годности у огнетушителя?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq1a">Срок службы огнетушителя составляет 10 лет. Однако техническое обслуживание и проверка
+              давления требуются каждые 1–2 года. Не забывайте следить за показаниями манометра.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq2q">Нужна ли перезарядка огнетушителя?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq2a">Да. Даже если огнетушитель не использовался, перезарядка необходима раз в 5 лет. После
+              каждого применения — обязательно. Мы предоставляем услугу перезарядки на месте.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq3q">Какой огнетушитель выбрать для автомобиля?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq3a">Для личного транспорта рекомендуется порошковый огнетушитель весом 1–2 кг. Он
+              компактен, эффективен против возгораний класса A, B и C, и легко помещается в салоне или багажнике.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq4q">Есть ли доставка по Ташкенту?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq4a">Да, мы осуществляем доставку по всему Ташкенту. Свяжитесь с нами по телефону, и мы
+              согласуем удобное время. Доставка в день обращения возможна при наличии товара на складе.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3 class="footer-logo" data-i18n="shortTitle">OOO NEW TEX ALLIANCE</h3>
+        <p class="footer-desc" data-i18n="footerAbout">Надежная защита для вашего дома и бизнеса. Качество, проверенное
+          временем.</p>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="footerContacts">Контакты</h3>
+        <ul class="footer-list">
+          <li><span class="icon">📍</span><span class="text" data-i18n="footerAddress">г. Ташкент, ул. Безопасности,
+              1</span></li>
+          <li><span class="icon">📞</span><span class="text"><a href="tel:+998901234567" class="tel-link">+998 90 123 45
+                67</a></span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 data-i18n="footerHoursTitle">Режим работы</h3>
+        <ul class="footer-list">
+          <li><span class="icon">🕒</span><span class="text" data-i18n="footerHours">24/7 Без выходных</span></li>
+          <li><span class="icon">🛡️</span><span class="text" data-i18n="footerReady">Готовы помочь в любую
+              минуту.</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footerRights">&copy; 2026 ООО New Tex Alliance. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <a href="tel:+998901234567" class="float-call" aria-label="Позвонить">
+    <span class="pulse-ring"></span>
+    <span class="pulse-ring delay"></span>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+      <path
+        d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"
+        fill="#ffffff" />
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
