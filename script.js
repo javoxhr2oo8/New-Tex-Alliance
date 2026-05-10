@@ -71,6 +71,11 @@ const flagUrls = {
 
 const translations = {
   ru: {
+    sc8Title: "Дополнительное оборудование",
+    sc7Title: "РАЦИИ - РАДИОСТАНЦИИ",
+    sc4Title: "Пожарные щиты и шкафы",
+    sc5Title: "Система автоматического пожаро тушения",
+    sc6Title: "Противопожарная сигнализация",
     workDays: "ПОНЕДЕЛЬНИК - ПЯТНИЦА 09:00 - 18:00",
     saturday: "СУББОТА: 09:00 - 15:00",
     sunday: "ВОСКРЕСЕНЬЕ - ВЫХОДНОЙ",
@@ -139,6 +144,11 @@ const translations = {
     heroText: "ОБОРУДОВАНИЕ ДЛЯ ПОЖАРНОЙ И ОХРАННОЙ БЕЗОПАСНОСТИ"
   },
   uz: {
+    sc8Title: "Qo'shimcha jihozlar",
+    sc7Title: "Radiostansiyalar",
+    sc4Title: "O‘t o‘chirish shitlari va javonlari",
+    sc5Title: "Avtomatik yong‘in o‘chirish tizimi",
+    sc6Title: "Yong‘in signalizatsiyasi",
     workDays: "DUSHANBA - JUMA 09:00 - 18:00",
     saturday: "SHANBA: 09:00 - 15:00",
     sunday: "YAKSHANBA - DAM OLISH KUNI",
@@ -205,6 +215,11 @@ const translations = {
     heroText: "YONG'IN VA QO'RIQLASH XAVFSIZLIK USKUNALARI"
   },
   zh: {
+    sc8Title: "附加设备",
+    sc7Title: "无线电台",
+    sc4Title: "消防栓箱和灭火器材柜",
+    sc5Title: "自动灭火系统",
+    sc6Title: "火灾报警系统",
     workDays: "周一至周五 09:00 - 18:00",
     saturday: "周六: 09:00 - 15:00",
     sunday: "周日 - 休息",

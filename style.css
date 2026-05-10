@@ -1003,6 +1003,8 @@ main {
 
 .footer-big-logo {
   display: none;
+  background: #fff;
+  border-radius: 12px;
 }
 
 @media screen and (max-width: 700px) {
